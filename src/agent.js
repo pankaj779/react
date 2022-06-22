@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'https://pkp-LB-1899673793.ap-south-1.elb.amazonaws.com/api';
+const API_ROOT = 'https://pankaj.rtd.squareops.co.in/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
